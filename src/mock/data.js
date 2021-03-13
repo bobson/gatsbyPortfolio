@@ -9,18 +9,20 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hello, my name is',
+  name: ' Slobodan',
+  subtitle: "I'm a React Web Developer",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'hello.jpg',
+  paragraphOne:
+    'Results-oriented Front-end Developer love using React and Material UI, dedicated to creating and optimizing interactive, user-friendly, and feature-rich websites.',
+  paragraphTwo:
+    'Leverage analytical skills and strong attention to detail in order to deliver original and efficient web solutions, provide technical knowledge, build new websites from start to finish.',
+  paragraphThree: ' ',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,30 +30,32 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'CRWNClothing.png',
+    title: 'CRWN Clothing',
+    info:
+      'E-commece web page build with React usig Redux for state managment routing with react-router, firebase for user storage, and stripe for payment, styled with scss.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://crwn-clothing-ltd.netlify.app/',
+    repo: 'https://github.com/bobson/crwnclothing', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'BrainsterSpace.png',
+    title: 'BrainsterSpace',
+    info: 'Final Project of the Braister bootcamp build with React and Bootsrap',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://brainsterspace-slobodan.netlify.app',
+    repo: 'https://github.com/bobson/BrainsterSpace.git', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'Covid-19.png',
+    title: 'Covid-19 Tracker',
+    info:
+      'This project is a simple COVID-19 Virus tracker app build with React.js with all the latest features like hooks, styled with Materilal UI, visualization with Charts.js',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://covidvirustracker.netlify.app',
+    repo: 'https://github.com/bobson/covid_19_tracker', // if no repo, the button will not show up
   },
 ];
 
@@ -68,27 +72,27 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/bmarkoski',
     },
     {
       id: nanoid(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/bobi-mar',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/slobodan-markoski-93ab0517a/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/bobson',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

@@ -24,8 +24,9 @@
     }
 
     &__text,
-    a {
+    .modal-btn {
       font-size: 2.4rem;
+      cursor: pointer;
 
       // Responsive for contact text
       @include respond(phone) {

@@ -3,6 +3,8 @@
   color: $dark-blue-text;
   margin-top: -15rem;
   padding-top: 15rem;
+  background-position: left;
+  background-size: cover;
 
   @include respond(tab-land) {
     margin-top: 0;

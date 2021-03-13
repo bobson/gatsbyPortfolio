@@ -1,12 +1,18 @@
-import React, { useContext } from 'react';
-import Fade from 'react-reveal/Fade';
-import { Container } from 'react-bootstrap';
-import PortfolioContext from '../../context/context';
-import Title from '../Title/Title';
+import React, { useContext } from "react";
+import Fade from "react-reveal/Fade";
+import { Container } from "react-bootstrap";
+import PortfolioContext from "../../context/context";
+import Title from "../Title/Title";
+import FormModal from "../FormModal/FormModal";
 
 const Contact = () => {
+  const [toggle, setToggle] = React.useState(false);
   const { contact } = useContext(PortfolioContext);
-  const { cta, btn, email } = contact;
+  const { cta, btn } = contact;
+
+  const toggleDialog = () => {
+    setToggle(!toggle);
+  };
 
   return (
     <section id="contact">
@@ -15,16 +21,18 @@ const Contact = () => {
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
-              {cta || 'Would you like to work with me? Awesome!'}
+              {cta || "Would you like to work with me? Awesome!"}
             </p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
-            >
-              {btn || "Let's Talk"}
-            </a>
+            <FormModal toggle={toggle} toggleDialog={toggleDialog}>
+              <div
+                onClick={toggleDialog}
+                className="cta-btn cta-btn--resume modal-btn"
+                role="button"
+                tabIndex={0}
+              >
+                {btn || "Let's Talk"}
+              </div>
+            </FormModal>
           </div>
         </Fade>
       </Container>
