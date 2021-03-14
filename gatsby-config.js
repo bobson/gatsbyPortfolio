@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Slobodan Portfolio`,
+        name: "Slobodan's Portfolio",
         short_name: `Portfolio`,
         start_url: `/`,
         background_color: `#fff`,
