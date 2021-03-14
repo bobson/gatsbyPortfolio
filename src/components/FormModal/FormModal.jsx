@@ -4,8 +4,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import { useForm } from "react-hook-form";
 import emailjs from "emailjs-com";
 
-import image from "../../images/White-Minimalist-Wallpaper.jpg";
-
 import Button from "@material-ui/core/Button";
 import Dialog from "@material-ui/core/Dialog";
 import Slide from "@material-ui/core/Slide";
@@ -18,7 +16,6 @@ import Success from "../Success/Success";
 
 import Fade from "react-reveal/Fade";
 import "../../style/main.scss";
-import Footer from "../Footer/Footer";
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;

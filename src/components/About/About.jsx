@@ -8,7 +8,7 @@ import { Link } from "react-scroll";
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -57,12 +57,12 @@ const About = () => {
                     "Lorem ipsum dolor sit, amet consectetur adipisicing elit."}
                 </p>
                 {/* {resume && ( */}
-                <p className="hero-cta cta-btn cta-btn--resume">
-                  {/* <span className="d-flex mt-3 cta-btn cta-btn--resume"> */}
-                  <Link to="contact" smooth duration={1000}>
-                    Hire Me
-                  </Link>
-                  {/* </span> */}
+                <p className="d-flex mt-3">
+                  <span className="cta-btn cta-btn--resume hire-btn">
+                    <Link to="contact" smooth duration={1000}>
+                      Hire Me
+                    </Link>
+                  </span>
                 </p>
                 {/* )} */}
               </div>

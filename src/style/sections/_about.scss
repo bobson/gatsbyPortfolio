@@ -18,6 +18,10 @@
     clip-path: none;
   }
 
+  .hire-btn{
+    cursor: pointer;
+  }
+
   .about-wrapper {
     @include respond(phone) {
       padding-bottom: 5rem;
