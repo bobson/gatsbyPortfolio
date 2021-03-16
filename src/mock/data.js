@@ -33,9 +33,8 @@ export const projectsData = [
     id: nanoid(),
     img: "AdoptMe.png",
     title: "Adopt Me",
-    info:
-      "Pet adoption site where you can adopt varios pets, from frontendmasters api call. Build with react, parcel as bundler, it has 90% of React features, hooks, context, portal, reatch/router errorEounadry.",
-    info2: "",
+    info: "Pet adoption site where you can adopt various pets, from frontendmasters api call.",
+    info2: "Build with react, parcel as bundler, it has 90% of React features, hooks, context, portal, reatch/router errorBounadry.",
     url: "https://pet-adopt.netlify.app",
     repo: "https://github.com/bobson/pet-adopt.git", // if no repo, the button will not show up
   },
