@@ -28,16 +28,27 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+
   {
     id: nanoid(),
-    img: "E-commerce.png",
-    title: "E-commerce",
+    img: "AdoptMe.png",
+    title: "Adopt Me",
     info:
-      "This is a web shop build with react and commercejs.com, styled with material-UI. I am usig lates features on React and commercejs as a database for the products. Clean, fast, user friendly e-commerce page.",
-    info2:
-      "You can add as many products on the  commercejs.com and use it as a backend with wery simple API request for the products. Payment proccess with stripe",
-    url: "https://re-commercejs.netlify.app/",
-    repo: "https://github.com/bobson/react-e-shop", // if no repo, the button will not show up
+      "Pet adoption site where you can adopt varios pets, from frontendmasters api call. Build with react, parcel as bundler, it has 90% of React features, hooks, context, portal, reatch/router errorEounadry.",
+    info2: "",
+    url: "https://pet-adopt.netlify.app",
+    repo: "https://github.com/bobson/pet-adopt.git", // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
+    img: "CRWNClothing.png",
+    title: "CRWN Clothing",
+    info:
+      "E-commece web page build with React usig Redux for state managment routing with react-router, firebase for user storage, and stripe for payment, styled with scss.",
+    info2: "",
+    url: "https://crwn-clothing-ltd.netlify.app",
+    repo: "https://github.com/bobson/crwnclothing", // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -51,13 +62,14 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: "CRWNClothing.png",
-    title: "CRWN Clothing",
+    img: "E-commerce.png",
+    title: "E-commerce",
     info:
-      "E-commece web page build with React usig Redux for state managment routing with react-router, firebase for user storage, and stripe for payment, styled with scss.",
-    info2: "",
-    url: "https://crwn-clothing-ltd.netlify.app/",
-    repo: "https://github.com/bobson/crwnclothing", // if no repo, the button will not show up
+      "This is a web shop build with react and commercejs.com, styled with material-UI. I am usig lates features on React and commercejs as a database for the products. Clean, fast, user friendly e-commerce page.",
+    info2:
+      "You can add as many products on the  commercejs.com and use it as a backend with wery simple API request for the products. Payment proccess with stripe",
+    url: "https://re-commercejs.netlify.app",
+    repo: "https://github.com/bobson/react-e-shop", // if no repo, the button will not show up
   },
   {
     id: nanoid(),
