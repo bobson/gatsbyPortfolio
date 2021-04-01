@@ -28,15 +28,15 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
-
   {
     id: nanoid(),
-    img: "AdoptMe.png",
-    title: "Adopt Me",
-    info: "Pet adoption site where you can adopt various pets, from frontendmasters api call.",
-    info2: "Build with react, parcel as bundler, it has 90% of React features, hooks, context, portal, reatch/router errorBounadry.",
-    url: "https://pet-adopt.netlify.app",
-    repo: "https://github.com/bobson/pet-adopt.git", // if no repo, the button will not show up
+    img: "virtualBanking.png",
+    title: "Virtual Banking",
+    info:
+      "Banking landing page build with Next.js and styled components, and react scroll for smoot scroll animations ",
+    info2: "",
+    url: "https://next-virtula-banking-3yup2h0ni-bobson.vercel.app/",
+    repo: "https://github.com/bobson/next-virtula-banking", // if no repo, the button will not show up
   },
 
   {
@@ -49,6 +49,19 @@ export const projectsData = [
     url: "https://crwn-clothing-ltd.netlify.app",
     repo: "https://github.com/bobson/crwnclothing", // if no repo, the button will not show up
   },
+
+  {
+    id: nanoid(),
+    img: "AdoptMe.png",
+    title: "Adopt Me",
+    info:
+      "Pet adoption site where you can adopt various pets, from frontendmasters api call.",
+    info2:
+      "Build with react, parcel as bundler, it has 90% of React features, hooks, context, portal, reatch/router errorBounadry.",
+    url: "https://pet-adopt.netlify.app",
+    repo: "https://github.com/bobson/pet-adopt.git", // if no repo, the button will not show up
+  },
+
   {
     id: nanoid(),
     img: "BrainsterSpace.png",
