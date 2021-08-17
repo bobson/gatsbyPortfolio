@@ -35,7 +35,7 @@ export const projectsData = [
     info: "Final Project of the Braister bootcamp build with React and Bootsrap",
     info2: "",
     url: "https://brainsterspace-slobodan.netlify.app",
-    repo: "https://github.com/bobson/BrainsterSpace.git", // if no repo, the button will not show up
+    repo: "https://github.com/bobson/BrainsterSpace.git", // if no repo, the button will not show u
   },
 
   {
