@@ -30,6 +30,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: "AmazonClone.png",
+    title: "Amazon Clone",
+    info: "Amazon website with FULL E-Commerce Functionality build with React, firebase, stripe.",
+    info2: "",
+    url: "https://clone-6f1af.web.app/",
+    repo: "https://github.com/bobson/amazon-clone", // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
     img: "BrainsterSpace.png",
     title: "Brainster Space",
     info: "Final Project of the Braister bootcamp build with React and Bootsrap",
