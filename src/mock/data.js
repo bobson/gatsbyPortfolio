@@ -61,16 +61,16 @@ export const projectsData = [
     repo: "https://github.com/bobson/BrainsterSpace.git", // if no repo, the button will not show u
   },
 
-  {
-    id: nanoid(),
-    img: "Carousel.png",
-    title: "Responsive swipe Carousel ",
-    info:
-      "Responsie finger-folowing swipe Carousel component with infinite loop option, supports multiple slides on the screen, Supports scrolling to a selected slide,work for any HTML content, autoplay option.",
-    info2: "",
-    url: "https://carousel-finger-folow.netlify.app/",
-    repo: "https://github.com/bobson/Carousel", // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: "Carousel.png",
+  //   title: "Responsive swipe Carousel ",
+  //   info:
+  //     "Responsie finger-folowing swipe Carousel component with infinite loop option, supports multiple slides on the screen, Supports scrolling to a selected slide,work for any HTML content, autoplay option.",
+  //   info2: "",
+  //   url: "https://carousel-finger-folow.netlify.app/",
+  //   repo: "https://github.com/bobson/Carousel", // if no repo, the button will not show up
+  // },
 
   {
     id: nanoid(),
